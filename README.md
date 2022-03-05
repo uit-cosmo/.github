@@ -1,4 +1,14 @@
 # user-guide
-user guide for other repositories
+## TODO
+- [ ] provide information about the group's work
+- [ ] give context for the repositories
+- [ ] maybe add small example already here
+- [ ] provide table of contents
+## Overview of repositories
 
-To be availabel in the upcomming days
+- [ ] provide list of useful repositories with short information
+- [ ] provide list of repositories associated with specific manuscripts/publications
+
+## Contributing to uit-cosmo
+- [ ] guide for new repositories
+- [ ] guide for existing repositories (development using git etc.)
