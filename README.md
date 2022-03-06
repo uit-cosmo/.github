@@ -41,3 +41,16 @@ This guide is meant for students and employees of the complex systems modelling 
 ### dirac-comb-and-exponential-frequency-spectra-in-nonlinear-dynamics
  
  ## Contributing to uit-cosmo<a name="contributing"></a>
+Contributions of any kind are welcome!
+
+The workflow for used is essentially ["GitHub flow"](https://docs.github.com/en/get-started/quickstart/github-flow). The **main** branches of most repositories are protected from direct commits. Instead, do the following:
+1. Create a new feature branch
+2. (Optional) Push feature branch to Github to share and create backup
+3. Commit changes to the feature branch
+4. Submit pull request into **main** branch 
+
+For new repositories, please provide a license (we recommend MIT) and a useful README file containing installation instructions and a simple example. Make sure that your code contains useful docstrings and some form of documentation. 
+
+## TODO list:
+- [ ] unify naming conventions across repositories
+- [ ] unify documentation across repositories
