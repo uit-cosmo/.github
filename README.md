@@ -49,8 +49,9 @@ The workflow for used is essentially ["GitHub flow"](https://docs.github.com/en/
 3. Commit changes to the feature branch
 4. Submit pull request into **main** branch 
 
-For new repositories, please provide a license (we recommend MIT) and a useful README file containing installation instructions and a simple example. Make sure that your code contains useful docstrings and some form of documentation. 
+For new repositories, please provide a license (we recommend MIT) and a useful README file containing installation instructions and a simple example. Make sure that your code contains useful documentation (docstrings, examples, etc.).
 
 ## TODO list:
 - [ ] unify naming conventions across repositories
 - [ ] unify documentation across repositories
+- [ ] provide tests for all repositories
