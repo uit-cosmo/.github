@@ -44,7 +44,7 @@ Repository containing scripts to generate and plot data used in Manuscript "Dira
  ## Contributing to uit-cosmo<a name="contributing"></a>
 Contributions of any kind are welcome!
 
-The workflow for used is essentially ["GitHub flow"](https://docs.github.com/en/get-started/quickstart/github-flow). The **main** branches of most repositories are protected from direct commits. Instead, do the following:
+The workflow used is essentially ["GitHub flow"](https://docs.github.com/en/get-started/quickstart/github-flow). The **main** branches of most repositories are protected from direct commits. Instead, do the following:
 1. Create a new feature branch
 2. (Optional) Push feature branch to Github to share and create backup
 3. Commit changes to the feature branch
