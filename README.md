@@ -38,7 +38,7 @@ This guide is meant for students and employees of the complex systems modelling 
 
 
  ## Publication specific repositories<a name="pub-repos"></a>
-### dirac-comb-and-exponential-frequency-spectra-in-nonlinear-dynamics
+### dirac-comb-and-exponential-frequency-spectra-in-nonlinear-dynamics<a name="dirac"></a>
 Repository containing scripts to generate and plot data used in Manuscript "Dirac comb and exponential frequency spectra in nonlinear dynamics" (arXiv:2106.15904).
 
  ## Contributing to uit-cosmo<a name="contributing"></a>
