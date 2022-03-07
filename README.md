@@ -53,7 +53,7 @@ This repository provides a range of tools to analyze time series of intermittent
 
 This repository is meant as a centralized hub for functions and methods for time series analysis. Whenever you develop new methods for this purpose, we encourage you to add them to this repository to make them available for other group members. 
 ### fpp-closed-expressions <a name ="fpp-closed-expressions"></a>
-This repository is a collection of closed expressions for the most common functions related to shot noise processes such as as expressions for PDFs, excess time statistics, PSDs and autocorrelation functions. Similarly to `fpp-analysis-tools` we encourage you to add newly derived expressions whenever you derive and/or publish any to make them available to other group members. 
+This repository is a collection of closed expressions for the most common functions related to shot noise processes such as expressions for PDFs, excess time statistics, PSDs and autocorrelation functions. Similarly to `fpp-analysis-tools` we encourage you to add newly derived expressions whenever you derive and/or publish any to make them available to other group members. 
 ### cosmoplots <a name ="cosmoplots"></a>
 `cosmoplots` provides default configurations for producing quality plots. We recommend using `cosmoplots` whenever you produce plots for manuscripts, talks or presentations. An example showing the advances of `complotots` compared to standard `matplotlib` is shown below. See the `README.md` file of the repository for a simple example.
 | `matplotlib` | `cosmoplots` |
