@@ -31,14 +31,16 @@ This repository provides numerical realizations of stochastic processes, given b
 <img src="svgs/98a5b4c5d09f47ace9e1894bbd96feab.svg?invert_in_darkmode" align=middle width=204.40029884999998pt height=37.80850590000001pt/>
 
 Here, the random variables are defined as follows: <img src="svgs/10a4a3cc50840a98449846ec6934c3ee.svg?invert_in_darkmode" align=middle width=39.81174449999999pt height=24.65753399999998pt/> stands for the number of pulses arriving in the time interval <img src="svgs/aab0f08201b211261f795050337fa8df.svg?invert_in_darkmode" align=middle width=36.54685154999999pt height=24.65753399999998pt/>, <img src="svgs/1f0aa5770083d7bade7ac8aafcbfc008.svg?invert_in_darkmode" align=middle width=19.594827449999993pt height=22.465723500000017pt/> is the pulse amplitude, <img src="svgs/509bf7d4f0f63616580a39c4ed8b527d.svg?invert_in_darkmode" align=middle width=13.20212684999999pt height=20.221802699999984pt/> the pulse arrival time, <img src="svgs/f50853d41be7d55874e952eb0d80c53e.svg?invert_in_darkmode" align=middle width=9.794543549999991pt height=22.831056599999986pt/> the pulse shape and <img src="svgs/b222131e5e48239edd846762f39f9c93.svg?invert_in_darkmode" align=middle width=14.44641824999999pt height=14.15524440000002pt/> for the duration time. In the default case, these parameters are chosen so that <img src="svgs/e92792f813c381b733318ac43a2728b7.svg?invert_in_darkmode" align=middle width=38.68165454999999pt height=24.65753399999998pt/> is a Filtered Poisson Process with exponential pulses, however all variables can be chosen freely. See `superposed-pulses/mode/example.py` for further details. An example of a realization in the default case is shown below:
+
 <img src="assets/fpp.png" alt="drawing" width="500"/>
 
 ### 2d-propagating-blobs<a name="2d-propagating-blobs"></a>
 
-This repository can be regarded as an extension of superposed pulses by adding one or two spatial dimensions. The model is motivated by 2d propagating blobs in the scrape-off layer of fusion experiments, but can be used for any 1d or 2d system consisting of advecting pulses. An example is shown below:
-![Density evolution](assets/2d_blobs.gif ) 
+This repository can be regarded as an extension of superposed pulses by adding one or two spatial dimensions. The model is motivated by 2d propagating blobs in the scrape-off layer of fusion experiments, but can be used for any 1d or 2d system consisting of advecting pulses. An example is shown below.
 
 Similarly to `superposed-pulses` all stochastic variables of the model can be chosen freely. The `README.md` file of the repository contains a documentation. Also the examples directory might be useful.
+<img src="assets/2d_blobs.gif" alt="drawing" width="600"/>
+
 ### fpp-analysis-tools<a name="fpp-analysis-tools"></a>
 This repository provides a range of tools to analyze time series of intermittent fluctuations. Functions for the following tasks are provided:
 - conditional averaging
