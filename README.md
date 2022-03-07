@@ -66,7 +66,7 @@ This repository is a collection of closed expressions for the most common functi
 ### SOFTX-D-16-00023<a name ="SOFTX-D-16-00023"></a>
 ### uit_sandpiles<a name ="uit_sandpiles"></a>
 ### PhD-thesis<a name ="PhD-thesis "></a>
-
+This repository contains the latex code of Gregor Decristoforo's PhD thesis. If you are looking for a latex template for your thesis at UiT this might be useful. A Makefile for compiling the latex code and instructions how to access the front page from the UiT website are provided. 
 
  ## Publication specific repositories<a name="pub-repos"></a>
 ### dirac-comb-and-exponential-frequency-spectra-in-nonlinear-dynamics<a name="dirac"></a>
