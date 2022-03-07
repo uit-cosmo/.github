@@ -33,6 +33,9 @@ Here, the random variables are defined as follows: $K(T)$ stands for the number 
 
 ### 2d-propagating-blobs<a name="2d-propagating-blobs"></a>
 
+This repository can be regarded as an extension of superposed pulses by adding one or two spatial dimensions. The model is motivated by 2d propagating blobs in the scrape-off layer of fusion experiments, but can be used for any 1d or 2d system consisting of advecting pulses. An example is shown below:
+
+![Density evolution](readme_gifs/2d_blobs.gif ) 
 
 ### fpp-analysis-tools<a name="fpp-analysis-tools"></a>
 ### fpp-closed-expressions <a name ="fpp-closed-expressions"></a>
