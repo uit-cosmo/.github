@@ -73,7 +73,7 @@ This repository is a collection of closed expressions for the most common functi
 This repository contains the latex code of Gregor Decristoforo's PhD thesis. If you are looking for a latex template for your thesis at UiT this might be useful. A Makefile for compiling the latex code and instructions how to access the front page from the UiT website are provided. 
 
  ## Publication specific repositories<a name="pub-repos"></a>
-### [`dirac-comb-and-exponential-frequency-spectra-in-nonlinear-dynamics'](https://github.com/uit-cosmo/dirac-comb-and-exponential-frequency-spectra-in-nonlinear-dynamics)<a name="dirac"></a>
+### [`dirac-comb-and-exponential-frequency-spectra-in-nonlinear-dynamics`](https://github.com/uit-cosmo/dirac-comb-and-exponential-frequency-spectra-in-nonlinear-dynamics)<a name="dirac"></a>
 Repository containing scripts to generate and plot data used in Manuscript "Dirac comb and exponential frequency spectra in nonlinear dynamics" (arXiv:2106.15904).
 
  ## Contributing to uit-cosmo<a name="contributing"></a>
