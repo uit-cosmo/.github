@@ -35,6 +35,7 @@ Here, the random variables are defined as follows: $K(T)$ stands for the number 
 
 This repository can be regarded as an extension of superposed pulses by adding one or two spatial dimensions. The model is motivated by 2d propagating blobs in the scrape-off layer of fusion experiments, but can be used for any 1d or 2d system consisting of advecting pulses. An example is shown below:
 ![Density evolution](assets/2d_blobs.gif ) 
+
 Similarly to `superposed-pulses` all stochastic variables of the model can be chosen freely. The `README.md` file of the repository contains a documentation. Also the examples directory might be useful.
 ### fpp-analysis-tools<a name="fpp-analysis-tools"></a>
 This repository provides a range of tools to analyze time series of intermittent fluctuations. Functions for the following tasks are provided:
@@ -57,6 +58,9 @@ This repository is a collection of closed expressions for the most common functi
 | :--------: | :--------: |
 | ![matplotlib](./assets/matplotlib.png) | ![cosmoplots](./assets/cosmoplots.png) |
 ### xblobs<a name ="xblobs"></a>
+`xblobs` is a python tool to detect and analyse coherent structures in turbulence using xarray. The algorithm has been developed originally to detect and track coherent structures (blobs) in plasma turbulence simulations, but it can be applied on any 2D xarray Dataset with a Cartesian grid and constant spacing `dx`, `dy` and `dt`. Documentation is provided in the `README.md` file. An example is shown below:
+![Density evolution](assets/turbulence_blobs.gif ) 
+
 ### Complexity-Entropy-Analysis<a name ="Complexity-Entropy-Analysis"></a>
 ### ebm<a name ="ebm"></a>
 ### SOFTX-D-16-00023<a name ="SOFTX-D-16-00023"></a>
