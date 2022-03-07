@@ -69,6 +69,7 @@ This repository is a collection of closed expressions for the most common functi
 ### [`ebm`](https://github.com/uit-cosmo/ebm)<a name ="ebm"></a>
 ### [`SOFTX-D-16-00023`](https://github.com/uit-cosmo/SOFTX-D-16-00023)<a name ="SOFTX-D-16-00023"></a>
 ### [`uit_sandpiles`](https://github.com/uit-cosmo/uit_sandpiles)<a name ="uit_sandpiles"></a>
+Efficient C++ code that simulates sandpile models based on the Bak–Tang–Wiesenfeld and other well-known variants. These models display self-organized criticality, and study of the different time signals they produce serves as a training tool to analyze self oranized critial systems in nature.
 ### [`PhD-thesis`](https://github.com/uit-cosmo/PhD-thesis)<a name ="PhD-thesis "></a>
 This repository contains the latex code of Gregor Decristoforo's PhD thesis. If you are looking for a latex template for your thesis at UiT this might be useful. A Makefile for compiling the latex code and instructions how to access the front page from the UiT website are provided. 
 
