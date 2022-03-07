@@ -34,11 +34,21 @@ Here, the random variables are defined as follows: $K(T)$ stands for the number 
 ### 2d-propagating-blobs<a name="2d-propagating-blobs"></a>
 
 This repository can be regarded as an extension of superposed pulses by adding one or two spatial dimensions. The model is motivated by 2d propagating blobs in the scrape-off layer of fusion experiments, but can be used for any 1d or 2d system consisting of advecting pulses. An example is shown below:
-
 ![Density evolution](assets/2d_blobs.gif ) 
-
 Similarly to `superposed-pulses` all stochastic variables of the model can be chosen freely. The `README.md` file of the repository contains a documentation. Also the examples directory might be useful.
 ### fpp-analysis-tools<a name="fpp-analysis-tools"></a>
+This repository provides a range of tools to analyze time series of intermittent fluctuations. Functions for the following tasks are provided:
+- conditional averaging
+- calculating correlation functions 
+- deconvolution of Filtered Point Processes
+- calculating distribution functions
+- estimating Hurst exponents
+- excess statistics 
+- calculating running moments
+- parameter estimation from the empirical characteristic function
+- peak detection
+
+This repository is meant as a centralized hub for functions and methods for time series analysis. Whenever you develope new methods for this purpose we encourage you to add them to this repository to make them available for other group members. 
 ### fpp-closed-expressions <a name ="fpp-closed-expressions"></a>
 ### cosmoplots <a name ="cosmoplots"></a>
 ### xblobs<a name ="xblobs"></a>
