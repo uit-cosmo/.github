@@ -7,25 +7,25 @@ This guide is meant for students and employees of the complex systems modelling 
 The latex expressions in this guide are created with [`readme2tex`](https://github.com/leegao/readme2tex). 
 
 - [Repositories](#repos)
-    - [superposed-pulses](#superposed-pulses)
-    - [2d-propagating-blobs ](#2d-propagating-blobs)
-    - [fpp-analysis-tools](#fpp-analysis-tools)
-    - [fpp-closed-expressions ](#fpp-closed-expressions)
-    - [cosmoplots](#cosmoplots)
-    - [xblobs](#xblobs)
-    - [Complexity-Entropy-Analysis](#Complexity-Entropy-Analysis)
-    - [ebm](#ebm)
-    - [SOFTX-D-16-00023](#SOFTX-D-16-00023)
-    - [uit_sandpiles](#uit_sandpiles)
-    - [PhD-thesis](#PhD-thesis)
+    - [`superposed-pulses`](#superposed-pulses)
+    - [`2d-propagating-blobs`](#2d-propagating-blobs)
+    - [`fpp-analysis-tools`](#fpp-analysis-tools)
+    - [`fpp-closed-expressions`](#fpp-closed-expressions)
+    - [`cosmoplots`](#cosmoplots)
+    - [`xblobs`](#xblobs)
+    - [`Complexity-Entropy-Analysis`](#Complexity-Entropy-Analysis)
+    - [`ebm`](#ebm)
+    - [`SOFTX-D-16-00023`](#SOFTX-D-16-00023)
+    - [`uit_sandpiles`](#uit_sandpiles)
+    - [`PhD-thesis`](#PhD-thesis)
 
 - [Publication specific repositories](#pub-repos)
-    - [dirac-comb-and-exponential-frequency-spectra-in-nonlinear-dynamics](#dirac) 
+    - [`dirac-comb-and-exponential-frequency-spectra-in-nonlinear-dynamics`](#dirac) 
 - [Contributing to uit-cosmo ](#contributing)
 
 
 ## Repositories<a name="repos"></a>
-### superposed-pulses<a name="superposed-pulses"></a>
+### [`superposed-pulses`](https://github.com/uit-cosmo/superposed-pulses)<a name="superposed-pulses"></a>
 This repository provides numerical realizations of stochastic processes, given by a superposition of pulses. For a given time <img src="svgs/8276c082cf9acef511891f138a922f74.svg?invert_in_darkmode" align=middle width=62.57408684999999pt height=24.65753399999998pt/> the process <img src="svgs/e92792f813c381b733318ac43a2728b7.svg?invert_in_darkmode" align=middle width=38.68165454999999pt height=24.65753399999998pt/> can be written as
 
 <img src="svgs/98a5b4c5d09f47ace9e1894bbd96feab.svg?invert_in_darkmode" align=middle width=204.40029884999998pt height=37.80850590000001pt/>
@@ -34,14 +34,14 @@ Here, the random variables are defined as follows: <img src="svgs/10a4a3cc50840a
 
 <img src="assets/fpp.png" alt="drawing" width="500"/>
 
-### 2d-propagating-blobs<a name="2d-propagating-blobs"></a>
+### [`2d-propagating-blobs`](https://github.com/uit-cosmo/2d-propagating-blobs)<a name="2d-propagating-blobs"></a>
 
 This repository can be regarded as an extension of superposed pulses by adding one or two spatial dimensions. The model is motivated by 2d propagating blobs in the scrape-off layer of fusion experiments, but can be used for any 1d or 2d system consisting of advecting pulses. An example is shown below.
 
 Similarly to `superposed-pulses` all stochastic variables of the model can be chosen freely. The `README.md` file of the repository contains a documentation. Also the examples directory might be useful.
 <img src="assets/2d_blobs.gif" alt="drawing" width="600"/>
 
-### fpp-analysis-tools<a name="fpp-analysis-tools"></a>
+### [`fpp-analysis-tools`](https://github.com/uit-cosmo/fpp-analysis-tools)<a name="fpp-analysis-tools"></a>
 This repository provides a range of tools to analyze time series of intermittent fluctuations. Functions for the following tasks are provided:
 - conditional averaging
 - calculating correlation functions 
@@ -54,26 +54,26 @@ This repository provides a range of tools to analyze time series of intermittent
 - peak detection
 
 This repository is meant as a centralized hub for functions and methods for time series analysis. Whenever you develop new methods for this purpose, we encourage you to add them to this repository to make them available for other group members. 
-### fpp-closed-expressions <a name ="fpp-closed-expressions"></a>
+### [`fpp-closed-expressions`](https://github.com/uit-cosmo/fpp-closed-expressions) <a name ="fpp-closed-expressions"></a>
 This repository is a collection of closed expressions for the most common functions related to shot noise processes such as expressions for PDFs, excess time statistics, PSDs and autocorrelation functions. Similarly to `fpp-analysis-tools` we encourage you to add newly derived expressions whenever you derive and/or publish any to make them available to other group members. 
-### cosmoplots <a name ="cosmoplots"></a>
+### [`cosmoplots`](https://github.com/uit-cosmo/cosmoplots) <a name ="cosmoplots"></a>
 `cosmoplots` provides default configurations for producing quality plots. We recommend using `cosmoplots` whenever you produce plots for manuscripts, talks or presentations. An example showing the advances of `complotots` compared to standard `matplotlib` is shown below. See the `README.md` file of the repository for a simple example.
 | `matplotlib` | `cosmoplots` |
 | :--------: | :--------: |
 | ![matplotlib](./assets/matplotlib.png) | ![cosmoplots](./assets/cosmoplots.png) |
-### xblobs<a name ="xblobs"></a>
+### [`xblobs`](https://github.com/uit-cosmo/xblobs)<a name ="xblobs"></a>
 `xblobs` is a python tool to detect and analyse coherent structures in turbulence using xarray. The algorithm has been developed originally to detect and track coherent structures (blobs) in plasma turbulence simulations, but it can be applied on any 2D xarray Dataset with a Cartesian grid and constant spacing `dx`, `dy` and `dt`. Documentation is provided in the `README.md` file. An example is shown below:
 ![Density evolution](assets/turbulence_blobs.gif ) 
 
-### Complexity-Entropy-Analysis<a name ="Complexity-Entropy-Analysis"></a>
-### ebm<a name ="ebm"></a>
-### SOFTX-D-16-00023<a name ="SOFTX-D-16-00023"></a>
-### uit_sandpiles<a name ="uit_sandpiles"></a>
-### PhD-thesis<a name ="PhD-thesis "></a>
+### [`Complexity-Entropy-Analysis`](https://github.com/uit-cosmo/Complexity-Entropy-Analysis)<a name ="Complexity-Entropy-Analysis"></a>
+### [`ebm`](https://github.com/uit-cosmo/ebm)<a name ="ebm"></a>
+### [`SOFTX-D-16-00023`](https://github.com/uit-cosmo/SOFTX-D-16-00023)<a name ="SOFTX-D-16-00023"></a>
+### [`uit_sandpiles`](https://github.com/uit-cosmo/uit_sandpiles)<a name ="uit_sandpiles"></a>
+### [`PhD-thesis`](https://github.com/uit-cosmo/PhD-thesis)<a name ="PhD-thesis "></a>
 This repository contains the latex code of Gregor Decristoforo's PhD thesis. If you are looking for a latex template for your thesis at UiT this might be useful. A Makefile for compiling the latex code and instructions how to access the front page from the UiT website are provided. 
 
  ## Publication specific repositories<a name="pub-repos"></a>
-### dirac-comb-and-exponential-frequency-spectra-in-nonlinear-dynamics<a name="dirac"></a>
+### [`dirac-comb-and-exponential-frequency-spectra-in-nonlinear-dynamics'](https://github.com/uit-cosmo/dirac-comb-and-exponential-frequency-spectra-in-nonlinear-dynamics)<a name="dirac"></a>
 Repository containing scripts to generate and plot data used in Manuscript "Dirac comb and exponential frequency spectra in nonlinear dynamics" (arXiv:2106.15904).
 
  ## Contributing to uit-cosmo<a name="contributing"></a>
