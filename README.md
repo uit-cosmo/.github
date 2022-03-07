@@ -37,6 +37,7 @@ This repository can be regarded as an extension of superposed pulses by adding o
 
 ![Density evolution](assets/2d_blobs.gif ) 
 
+Similarly to `superposed-pulses` all stochastic variables of the model can be chosen freely. The `README.md` file of the repository contains a documentation. Also the examples directory might be useful.
 ### fpp-analysis-tools<a name="fpp-analysis-tools"></a>
 ### fpp-closed-expressions <a name ="fpp-closed-expressions"></a>
 ### cosmoplots <a name ="cosmoplots"></a>
