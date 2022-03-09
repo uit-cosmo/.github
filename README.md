@@ -67,6 +67,16 @@ This repository is a collection of closed expressions for the most common functi
 
 ### [`Complexity-Entropy-Analysis`](https://github.com/uit-cosmo/Complexity-Entropy-Analysis)<a name ="Complexity-Entropy-Analysis"></a>
 ### [`ebm`](https://github.com/uit-cosmo/ebm)<a name ="ebm"></a>
+A Julia script to solve the 1D-Energy Balance Equation on the Northern hemisphere, adapted from North et al. 
+
+Options include:
+- seasonal solar insolation
+- time dependent albedo
+- CO2-forcing
+- noise
+- historical forcing
+- ensemble runs
+
 ### [`SOFTX-D-16-00023`](https://github.com/uit-cosmo/SOFTX-D-16-00023)<a name ="SOFTX-D-16-00023"></a>
 ### [`uit_sandpiles`](https://github.com/uit-cosmo/uit_sandpiles)<a name ="uit_sandpiles"></a>
 Efficient C++ code that simulates sandpile models based on the Bak–Tang–Wiesenfeld and other well-known variants. These models display self-organized criticality, and study of the different time signals they produce serves as a training tool to analyze self oranized critial systems in nature.
