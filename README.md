@@ -81,6 +81,8 @@ the variable rate forcing this package provide.
 ![Density evolution](assets/turbulence_blobs.gif ) 
 
 ### [`Complexity-Entropy-Analysis`](https://github.com/uit-cosmo/Complexity-Entropy-Analysis)<a name ="Complexity-Entropy-Analysis"></a>
+An implementation of the Bandt-Pompe algorithm to obtain a probability distribution based on the amplitude ordinal pattern of a given time series. Once the probability distribution is calculated, Permutation Entropy and Jensen-Shannon statistical complexity measure can be obtained.
+
 ### [`ebm`](https://github.com/uit-cosmo/ebm)<a name ="ebm"></a>
 A Julia script to solve the 1D-Energy Balance Equation on the Northern hemisphere, adapted from North et al. 
 
