@@ -93,6 +93,8 @@ Options include:
 - ensemble runs
 
 ### [`SOFTX-D-16-00023`](https://github.com/uit-cosmo/SOFTX-D-16-00023)<a name ="SOFTX-D-16-00023"></a>
+A fork of a NetCDF Energy Balance Model. The software calculates monthly and yearly global temperatures until equilibrium is reached, based on geograpy and albedo input.
+
 ### [`uit_sandpiles`](https://github.com/uit-cosmo/uit_sandpiles)<a name ="uit_sandpiles"></a>
 Efficient C++ code that simulates sandpile models based on the Bak–Tang–Wiesenfeld and other well-known variants. These models display self-organized criticality, and study of the different time signals they produce serves as a training tool to analyze self oranized critial systems in nature.
 ### [`PhD-thesis`](https://github.com/uit-cosmo/PhD-thesis)<a name ="PhD-thesis "></a>
