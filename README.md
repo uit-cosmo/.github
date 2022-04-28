@@ -18,6 +18,7 @@ The latex expressions in this guide are created with [`readme2tex`](https://gith
     - [`ebm`](#ebm)
     - [`SOFTX-D-16-00023`](#SOFTX-D-16-00023)
     - [`uit_sandpiles`](#uit_sandpiles)
+    - [`poster-template`](#poster-template)
     - [`PhD-thesis`](#PhD-thesis)
 
 - [Publication specific repositories](#pub-repos)
@@ -99,6 +100,10 @@ A fork of a NetCDF Energy Balance Model. The software calculates monthly and yea
 
 ### [`uit_sandpiles`](https://github.com/uit-cosmo/uit_sandpiles)<a name ="uit_sandpiles"></a>
 Efficient C++ code that simulates sandpile models based on the Bak–Tang–Wiesenfeld and other well-known variants. These models display self-organized criticality, and study of the different time signals they produce serves as a training tool to analyze self oranized critial systems in nature.
+
+### [`poster-template`](https://github.com/uit-cosmo/poster-template)<a name ="poster-template"></a>
+This repository contains the latex code for an UiT color themed scientific poster template. The template is based on the Gemini poster template https://github.com/anishathalye/gemini.
+
 ### [`PhD-thesis`](https://github.com/uit-cosmo/PhD-thesis)<a name ="PhD-thesis "></a>
 This repository contains the latex code of Gregor Decristoforo's PhD thesis. If you are looking for a latex template for your thesis at UiT this might be useful. A Makefile for compiling the latex code and instructions how to access the front page from the UiT website are provided. 
 
