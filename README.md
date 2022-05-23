@@ -4,8 +4,6 @@
 
 This guide is meant for students and employees of the complex systems modelling group at UiT. External collaborators or people with interest in the groups work are also welcome to use and contribute to the provided repositories. 
 
-The latex expressions in this guide are created with [`readme2tex`](https://github.com/leegao/readme2tex). 
-
 - [Repositories](#repos)
     - [`superposed-pulses`](#superposed-pulses)
     - [`2d-propagating-blobs`](#2d-propagating-blobs)
