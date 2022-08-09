@@ -1,15 +1,17 @@
-# Complex Systems Modelling - UiT 
+# Complex Systems Modelling - UiT
 
-`uit-cosmo` is a github organization providing numerical tools for creating, analyzing and visualizing data from complex systems. 
+`uit-cosmo` is a github organization providing numerical tools for creating, analyzing and visualizing data from complex systems.
 
-This guide is meant for students and employees of the complex systems modelling group at UiT. External collaborators or people with interest in the groups work are also welcome to use and contribute to the provided repositories. 
+This guide is meant for students and employees of the complex systems modelling group at UiT. External collaborators or people with interest in the groups work are also welcome to use and contribute to the provided repositories.
 
 ## Repositories<a name="repos"></a>
+
 <details>
-	<summary> <strong> superposed-pulses </strong> </summary>	
-    
-### [`superposed-pulses`](https://github.com/uit-cosmo/superposed-pulses)<a name="superposed-pulses"></a>
-This repository provides numerical realizations of stochastic processes, given by a superposition of pulses. For a given time $t \in [0,T]$ the process $\Phi_k(t)$ can be written as 
+<summary> <strong> superposed-pulses </strong> </summary>
+
+> _[`superposed-pulses`](https://github.com/uit-cosmo/superposed-pulses)_
+
+This repository provides numerical realizations of stochastic processes, given by a superposition of pulses. For a given time $t \in [0,T]$ the process $\Phi_k(t)$ can be written as
 
 $\Phi_k(t) = \sum_k A_k\phi\left(\frac{t-t_k}{\tau_k}\right)$
 
@@ -18,9 +20,9 @@ where $k \in \mathbb{N}^+$ and $k = [ 1, K(T) ]$. Here, the random variables are
 <img src="assets/fpp.png" alt="drawing" width="500"/>
 
 </details><details>
-	<summary> <strong> 2d-propagating-blobs </strong> </summary>	
-    
-### [`2d-propagating-blobs`](https://github.com/uit-cosmo/2d-propagating-blobs)<a name="2d-propagating-blobs"></a>
+<summary> <strong> 2d-propagating-blobs </strong> </summary>
+
+> _[`2d-propagating-blobs`](https://github.com/uit-cosmo/2d-propagating-blobs)_
 
 This repository can be regarded as an extension of superposed pulses by adding one or two spatial dimensions. The model is motivated by 2d propagating blobs in the scrape-off layer of fusion experiments, but can be used for any 1d or 2d system consisting of advecting pulses. Examples for 1d and 2d are shown below.
 
@@ -29,32 +31,35 @@ Similarly to `superposed-pulses` all stochastic variables of the model can be ch
 <img src="assets/1d_blobs.gif" alt="drawing" width="600"/>
 
 </details><details>
-	<summary> <strong> fpp-analysis-tools </strong> </summary>	
-    
-### [`fpp-analysis-tools`](https://github.com/uit-cosmo/fpp-analysis-tools)<a name="fpp-analysis-tools"></a>
+<summary> <strong> fpp-analysis-tools </strong> </summary>
+
+> _[`fpp-analysis-tools`](https://github.com/uit-cosmo/fpp-analysis-tools)_
+
 This repository provides a range of tools to analyze time series of intermittent fluctuations. Functions for the following tasks are provided:
+
 - conditional averaging
-- calculating correlation functions 
+- calculating correlation functions
 - deconvolution of Filtered Point Processes
 - calculating distribution functions
 - estimating Hurst exponents
-- excess statistics 
+- excess statistics
 - calculating running moments
 - parameter estimation from the empirical characteristic function
 - peak detection
 
-This repository is meant as a centralized hub for functions and methods for time series analysis. Whenever you develop new methods for this purpose, we encourage you to add them to this repository to make them available for other group members. 
+This repository is meant as a centralized hub for functions and methods for time series analysis. Whenever you develop new methods for this purpose, we encourage you to add them to this repository to make them available for other group members.
 
 </details><details>
-	<summary> <strong> fpp-closed-expressions </strong> </summary>	
+<summary> <strong> fpp-closed-expressions </strong> </summary>
 
-### [`fpp-closed-expressions`](https://github.com/uit-cosmo/fpp-closed-expressions) <a name ="fpp-closed-expressions"></a>
-This repository is a collection of closed expressions for the most common functions related to shot noise processes such as expressions for PDFs, excess time statistics, PSDs and autocorrelation functions. Similarly to `fpp-analysis-tools` we encourage you to add newly derived expressions whenever you derive and/or publish any to make them available to other group members. 
+> _[`fpp-closed-expressions`](https://github.com/uit-cosmo/fpp-closed-expressions) <a name ="fpp-closed-expressions"></a>
+
+This repository is a collection of closed expressions for the most common functions related to shot noise processes such as expressions for PDFs, excess time statistics, PSDs and autocorrelation functions. Similarly to `fpp-analysis-tools` we encourage you to add newly derived expressions whenever you derive and/or publish any to make them available to other group members.
 
 </details><details>
-	<summary> <strong> fpp-sle </strong> </summary>	
- 
-### [`fpp-sle`](https://github.com/uit-cosmo/fpp-sle) <a name ="fpp-sle"></a>
+<summary> <strong> fpp-sle </strong> </summary>
+
+> _[`fpp-sle`](https://github.com/uit-cosmo/fpp-sle) <a name ="fpp-sle"></a>
 
 This repository extends the [`superposed-pulses`](#superposed-pulses) repository by
 implementing a forcing class that generates arrival times from varying rate processes.
@@ -68,34 +73,39 @@ statistics of the process generated by the `superposed-pulses` library, when use
 the variable rate forcing this package provide.
 
 </details><details>
-	<summary> <strong> cosmoplots </strong> </summary>	
-    
-### [`cosmoplots`](https://github.com/uit-cosmo/cosmoplots) <a name ="cosmoplots"></a>
+<summary> <strong> cosmoplots </strong> </summary>
+
+> _[`cosmoplots`](https://github.com/uit-cosmo/cosmoplots) <a name ="cosmoplots"></a>
+
 `cosmoplots` provides default configurations for producing quality plots. We recommend using `cosmoplots` whenever you produce plots for manuscripts, talks or presentations. An example showing the advances of `complotots` compared to standard `matplotlib` is shown below. See the `README.md` file of the repository for a simple example.
 | `matplotlib` | `cosmoplots` |
 | :--------: | :--------: |
 | ![matplotlib](./assets/matplotlib.png) | ![cosmoplots](./assets/cosmoplots.png) |
 
 </details><details>
-	<summary> <strong> xblobs </strong> </summary>	
-    
-### [`xblobs`](https://github.com/uit-cosmo/xblobs)<a name ="xblobs"></a>
+<summary> <strong> xblobs </strong> </summary>
+
+> _[`xblobs`](https://github.com/uit-cosmo/xblobs)_
+
 `xblobs` is a python tool to detect and analyse coherent structures in turbulence using xarray. The algorithm has been developed originally to detect and track coherent structures (blobs) in plasma turbulence simulations, but it can be applied on any 2D xarray Dataset with a Cartesian grid and constant spacing `dx`, `dy` and `dt`. Documentation is provided in the `README.md` file. An example is shown below:
-![Density evolution](assets/turbulence_blobs.gif ) 
+![Density evolution](assets/turbulence_blobs.gif)
 
 </details><details>
-	<summary> <strong> Complexity-Entropy-Analysis </strong> </summary>	
-    
-### [`Complexity-Entropy-Analysis`](https://github.com/uit-cosmo/Complexity-Entropy-Analysis)<a name ="Complexity-Entropy-Analysis"></a>
+<summary> <strong> Complexity-Entropy-Analysis </strong> </summary>
+
+> _[`Complexity-Entropy-Analysis`](https://github.com/uit-cosmo/Complexity-Entropy-Analysis)_
+
 An implementation of the Bandt-Pompe algorithm to obtain a probability distribution based on the amplitude ordinal pattern of a given time series. Once the probability distribution is calculated, Permutation Entropy and Jensen-Shannon statistical complexity measure can be obtained.
 
 </details><details>
-	<summary> <strong> ebm </strong> </summary>	
-    
-### [`ebm`](https://github.com/uit-cosmo/ebm)<a name ="ebm"></a>
-A Julia script to solve the 1D-Energy Balance Equation on the Northern hemisphere, adapted from North et al. 
+<summary> <strong> ebm </strong> </summary>
+
+> _[`ebm`](https://github.com/uit-cosmo/ebm)_
+
+A Julia script to solve the 1D-Energy Balance Equation on the Northern hemisphere, adapted from North et al.
 
 Options include:
+
 - seasonal solar insolation
 - time dependent albedo
 - CO2-forcing
@@ -104,47 +114,55 @@ Options include:
 - ensemble runs
 
 </details><details>
-	<summary> <strong> SOFTX-D-16-00023 </strong> </summary>	
+<summary> <strong> SOFTX-D-16-00023 </strong> </summary>
 
-### [`SOFTX-D-16-00023`](https://github.com/uit-cosmo/SOFTX-D-16-00023)<a name ="SOFTX-D-16-00023"></a>
+> _[`SOFTX-D-16-00023`](https://github.com/uit-cosmo/SOFTX-D-16-00023)_
+
 A fork of a NetCDF Energy Balance Model. The software calculates monthly and yearly global temperatures until equilibrium is reached, based on geograpy and albedo input.
 
 </details><details>
-	<summary> <strong> uit_sandpiles </strong> </summary>	
+<summary> <strong> uit_sandpiles </strong> </summary>
 
-### [`uit_sandpiles`](https://github.com/uit-cosmo/uit_sandpiles)<a name ="uit_sandpiles"></a>
+> _[`uit_sandpiles`](https://github.com/uit-cosmo/uit_sandpiles)_
+
 Efficient C++ code that simulates sandpile models based on the Bak–Tang–Wiesenfeld and other well-known variants. These models display self-organized criticality, and study of the different time signals they produce serves as a training tool to analyze self oranized critial systems in nature.
 
 </details><details>
-	<summary> <strong> poster-template </strong> </summary>	
+<summary> <strong> poster-template </strong> </summary>
 
-### [`poster-template`](https://github.com/uit-cosmo/poster-template)<a name ="poster-template"></a>
+> _[`poster-template`](https://github.com/uit-cosmo/poster-template)_
+
 This repository contains the latex code for an UiT color themed scientific poster template. The template is based on the Gemini poster template https://github.com/anishathalye/gemini.
 
 </details><details>
-	<summary> <strong> PhD-thesis </strong> </summary>	
+<summary> <strong> PhD-thesis </strong> </summary>
 
-### [`PhD-thesis`](https://github.com/uit-cosmo/PhD-thesis)<a name ="PhD-thesis "></a>
-This repository contains the latex code of Gregor Decristoforo's PhD thesis. If you are looking for a latex template for your thesis at UiT this might be useful. A Makefile for compiling the latex code and instructions how to access the front page from the UiT website are provided. 
+> _[`PhD-thesis`](https://github.com/uit-cosmo/PhD-thesis)_
+
+This repository contains the latex code of Gregor Decristoforo's PhD thesis. If you are looking for a latex template for your thesis at UiT this might be useful. A Makefile for compiling the latex code and instructions how to access the front page from the UiT website are provided.
 
 </details>
 
 ## Publication specific repositories<a name="pub-repos"></a>
+
 <details>
-	<summary> <strong> dirac-comb-and-exponential-frequency-spectra-in-nonlinear-dynamics </strong> </summary>	
-    
-### [`dirac-comb-and-exponential-frequency-spectra-in-nonlinear-dynamics`](https://github.com/uit-cosmo/dirac-comb-and-exponential-frequency-spectra-in-nonlinear-dynamics)<a name="dirac"></a>
+<summary> <strong> dirac-comb-and-exponential-frequency-spectra-in-nonlinear-dynamics </strong> </summary>
+
+> _[`dirac-comb-and-exponential-frequency-spectra-in-nonlinear-dynamics`](https://github.com/uit-cosmo/dirac-comb-and-exponential-frequency-spectra-in-nonlinear-dynamics)_
+
 Repository containing scripts to generate and plot data used in Manuscript "Dirac comb and exponential frequency spectra in nonlinear dynamics" (arXiv:2106.15904).
 
 </details>
 
- ## Contributing to uit-cosmo<a name="contributing"></a>
+## Contributing to uit-cosmo<a name="contributing"></a>
+
 Contributions of any kind are welcome!
 
 The workflow used is essentially ["GitHub flow"](https://docs.github.com/en/get-started/quickstart/github-flow). The **main** branches of most repositories are protected from direct commits. Instead, do the following:
+
 1. Create a new feature branch
 2. (Optional) Push feature branch to Github to share and create backup
 3. Commit changes to the feature branch
-4. Submit pull request into **main** branch 
+4. Submit pull request into **main** branch
 
 For new repositories, please provide a license (we recommend MIT) and a useful README file containing installation instructions and a simple example. Make sure that your code contains useful documentation (docstrings, examples, etc.).
