@@ -52,14 +52,14 @@ This repository is meant as a centralized hub for functions and methods for time
 </details><details>
 <summary> <strong> fpp-closed-expressions </strong> </summary>
 
-> _[`fpp-closed-expressions`](https://github.com/uit-cosmo/fpp-closed-expressions) <a name ="fpp-closed-expressions"></a>
+> _[`fpp-closed-expressions`](https://github.com/uit-cosmo/fpp-closed-expressions)_ <a name ="fpp-closed-expressions"></a>
 
 This repository is a collection of closed expressions for the most common functions related to shot noise processes such as expressions for PDFs, excess time statistics, PSDs and autocorrelation functions. Similarly to `fpp-analysis-tools` we encourage you to add newly derived expressions whenever you derive and/or publish any to make them available to other group members.
 
 </details><details>
 <summary> <strong> fpp-sle </strong> </summary>
 
-> _[`fpp-sle`](https://github.com/uit-cosmo/fpp-sle) <a name ="fpp-sle"></a>
+> _[`fpp-sle`](https://github.com/uit-cosmo/fpp-sle)_ <a name ="fpp-sle"></a>
 
 This repository extends the [`superposed-pulses`](#superposed-pulses) repository by
 implementing a forcing class that generates arrival times from varying rate processes.
@@ -75,7 +75,7 @@ the variable rate forcing this package provide.
 </details><details>
 <summary> <strong> cosmoplots </strong> </summary>
 
-> _[`cosmoplots`](https://github.com/uit-cosmo/cosmoplots) <a name ="cosmoplots"></a>
+> _[`cosmoplots`](https://github.com/uit-cosmo/cosmoplots)_ <a name ="cosmoplots"></a>
 
 `cosmoplots` provides default configurations for producing quality plots. We recommend using `cosmoplots` whenever you produce plots for manuscripts, talks or presentations. An example showing the advances of `complotots` compared to standard `matplotlib` is shown below. See the `README.md` file of the repository for a simple example.
 | `matplotlib` | `cosmoplots` |
