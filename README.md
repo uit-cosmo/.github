@@ -20,9 +20,9 @@ where $k \in \mathbb{N}^+$ and $k = [ 1, K(T) ]$. Here, the random variables are
 <img src="assets/fpp.png" alt="drawing" width="500"/>
 
 </details><details>
-<summary> <strong> 2d-propagating-blobs </strong> </summary>
+<summary> <strong> blobmodel </strong> </summary>
 
-> _[`2d-propagating-blobs`](https://github.com/uit-cosmo/2d-propagating-blobs)_
+> _[`blobmodel`](https://github.com/uit-cosmo/blobmodel)_
 
 This repository can be regarded as an extension of superposed pulses by adding one or two spatial dimensions. The model is motivated by 2d propagating blobs in the scrape-off layer of fusion experiments, but can be used for any 1d or 2d system consisting of advecting pulses. Examples for 1d and 2d are shown below.
 
